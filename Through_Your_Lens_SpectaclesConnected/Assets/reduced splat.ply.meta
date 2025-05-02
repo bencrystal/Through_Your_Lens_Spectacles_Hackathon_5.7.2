@@ -1,0 +1,20 @@
+- !<AssetImportMetadata/189b9137-7dd2-437a-99a6-c535174352ad>
+  ImportedAssetIds:
+    reduced splat: !<reference> 61e759f6-b008-4da4-a305-e58a8b7b45cb
+  ImporterName: GaussianSplattingAssetImporter
+  PrimaryAsset: !<reference> 61e759f6-b008-4da4-a305-e58a8b7b45cb
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<GaussianSplattingImporterSettings>
+    BitsCenter: 12
+    BitsScale: 8
+    BitsRotation: 4
+    BitsColor: 4
+    MinimumOpacity: 0.000000
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
