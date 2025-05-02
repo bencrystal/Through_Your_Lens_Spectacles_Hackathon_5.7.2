@@ -3762,14 +3762,14 @@
   ScriptInputsDefault:
     {}
   ScriptTypesDefault:
-    {}
+    "Instantiator\r": true
   ScriptInputs:
     "":
-      instantiator: !<Typename.Instantiator> 130e23e0-29a6-48ea-898b-3d316a9b80d7
+      instantiator: !<RequiredType.Instantiator> 130e23e0-29a6-48ea-898b-3d316a9b80d7
       prefab: !<reference.ObjectPrefab> 1f9e33dc-e464-491d-b435-dc1703b3f5a3
   ScriptTypes:
     "":
-      Instantiator: !<reference.ScriptAsset> 0f0500cb-c58a-434d-a171-94167130d106
+      "Instantiator\r": !<reference.ScriptAsset> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/390d8d18-8739-42cc-b819-b575d34da5fb>
   PrefabRemaps:
     []
@@ -5714,7 +5714,7 @@
   PrefabRemaps:
     []
   Name: Gaussian Splatting
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
