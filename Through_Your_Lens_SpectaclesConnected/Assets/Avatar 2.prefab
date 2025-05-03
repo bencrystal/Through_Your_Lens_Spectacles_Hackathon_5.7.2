@@ -47,7 +47,7 @@
   ShadowDensity: 1.000000
   Materials:
     - !<reference> d8b1d857-87b4-4544-a612-3ec345a6514c
-  Mesh: !<reference> ac435571-710f-4f4b-be04-5d899867a03f
+  Mesh: !<reference> 9c6c0f83-a3a4-4fcf-b8cf-4de5650fea7f
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
   BlendNormals: false
