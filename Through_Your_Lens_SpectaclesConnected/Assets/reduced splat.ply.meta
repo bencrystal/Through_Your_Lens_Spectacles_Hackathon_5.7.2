@@ -8,7 +8,7 @@
   ExtraData:
     {}
   AssetDataMap:
-    reduced splat: !<own> 15e5a743-2fd2-442f-9ea4-376d6e87d142
+    reduced splat: !<own> 176ad5e2-6201-434e-b94f-dca6603f32d5
   DependentFiles:
     []
   ImporterSettings: !<GaussianSplattingImporterSettings>
@@ -18,7 +18,7 @@
     BitsColor: 4
     MinimumOpacity: 0.000000
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<GaussianSplattingAssetData/15e5a743-2fd2-442f-9ea4-376d6e87d142>
+- !<GaussianSplattingAssetData/176ad5e2-6201-434e-b94f-dca6603f32d5>
   Recenter: false
   FlipXY: false
   Scale: 1.000000

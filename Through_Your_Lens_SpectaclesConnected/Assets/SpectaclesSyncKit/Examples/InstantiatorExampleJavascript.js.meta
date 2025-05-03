@@ -29,11 +29,10 @@
     instantiator: false
     prefab: false
   ScriptTypesHidden:
-    "Instantiator\r": false
+    Instantiator: false
   DefaultScriptInputs:
     - instantiator: !<RequiredType.Instantiator> 00000000-0000-0000-0000-000000000000
       prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     - Instantiator: !<reference.ScriptAsset> 00000000-0000-0000-0000-000000000000
-      "Instantiator\r": !<reference.ScriptAsset> 00000000-0000-0000-0000-000000000000
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
