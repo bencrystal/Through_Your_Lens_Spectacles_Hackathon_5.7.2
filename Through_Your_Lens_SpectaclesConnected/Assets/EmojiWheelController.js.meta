@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/81e31638-8113-4c4d-8359-b4b9ee3bb177>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> f2795b87-942f-45a5-9224-cbf312630a12
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> f2795b87-942f-45a5-9224-cbf312630a12
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 8c959538-4ef5-4f6a-8737-e78600d02a4f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/8c959538-4ef5-4f6a-8737-e78600d02a4f>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: fa3ced4e-38ce-41e3-9336-d10fe711a3c4
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    centerPinchButton: false
+    emojiPinchButtons: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - outerButtons: !<reference.PinchButton[]>
+        []
+      centerPinchButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      emojiButtons: !<reference.ScriptComponent[]>
+        []
+      emojiPinchButtons: !<reference.ScriptComponent[]>
+        []
+  ScriptTypes:
+    -
+      {}
