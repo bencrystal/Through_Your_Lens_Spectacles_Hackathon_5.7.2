@@ -13,7 +13,7 @@
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    scale: {x: 4.000000, y: 4.000000, z: 4.000000}
     hasSegmentScaleCompensation: false
   Children:
     []
@@ -62,7 +62,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> d8b1d857-87b4-4544-a612-3ec345a6514c
+    - !<reference> 7abd4006-1d01-4905-961b-30e148b3c245
   Mesh: !<reference> b8d72c9d-3229-45db-8fea-b4694402df10
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
