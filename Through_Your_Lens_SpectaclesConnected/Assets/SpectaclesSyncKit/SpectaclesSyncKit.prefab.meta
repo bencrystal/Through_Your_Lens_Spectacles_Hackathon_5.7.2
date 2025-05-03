@@ -14603,14 +14603,13 @@
   Enabled: true
   ScriptAsset: !<reference> a02a4074-8a4b-4741-94f8-395363bdff5b
   ScriptInputsDefault:
-    cameraObj: true
+    {}
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
       instantiator: !<MappingBased.Instantiator> 9ace1361-885b-4360-825b-275797802840
       prefab: !<reference.ObjectPrefab> 1f9e33dc-e464-491d-b435-dc1703b3f5a3
-      cameraObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     "":
       {}

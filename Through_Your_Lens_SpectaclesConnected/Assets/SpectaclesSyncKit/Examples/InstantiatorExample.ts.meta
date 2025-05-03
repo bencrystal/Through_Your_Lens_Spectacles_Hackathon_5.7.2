@@ -26,7 +26,6 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
-    cameraObj: false
     instantiator: false
     prefab: false
   ScriptTypesHidden:
@@ -34,12 +33,10 @@
   DefaultScriptInputs:
     - instantiator: !<MappingBased.Instantiator> 00000000-0000-0000-0000-000000000000
       prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
-      cameraObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   InputLines:
     - // @input Instantiator instantiator
     - // @input Asset.ObjectPrefab prefab
-    - // @input SceneObject cameraObj
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
