@@ -1,10 +1,26 @@
-- !<ObjectPrefab/a5210dc2-6e7d-4b15-85b5-b7e46842bef0>
+- !<ObjectPrefab/f0012e99-454b-4eae-a114-9adc009446e2>
   PackagePath: ""
   objects:
-    - !<own> cd40d1ff-cc9e-49d9-99ff-cc96075773c6
+    - !<own> e5cfa2dd-35da-4e2f-b883-ed1a18dd6387
   LazyLoading: false
   RetainAssets: true
-- !<ScriptComponent/380cb900-4acf-4fd1-bb5f-13d3d19377df>
+- !<SceneObject/1e4ca180-54f7-4991-b2d3-f26b89fc3aac>
+  PrefabRemaps:
+    []
+  Name: Avatar
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 718fda08-52af-416b-9096-6d34408880e3
+    - !<own> 3407f91a-3440-4849-a270-144850fd4794
+- !<ScriptComponent/3407f91a-3440-4849-a270-144850fd4794>
   PrefabRemaps:
     []
   Name: SyncTransform
@@ -33,7 +49,7 @@
   ScriptTypes:
     "":
       {}
-- !<RenderMeshVisual/5d03d0bc-1328-455c-9f21-36300e83c3b6>
+- !<RenderMeshVisual/718fda08-52af-416b-9096-6d34408880e3>
   PrefabRemaps:
     []
   Name: Render Mesh Visual
@@ -47,25 +63,24 @@
   ShadowDensity: 1.000000
   Materials:
     - !<reference> d8b1d857-87b4-4544-a612-3ec345a6514c
-  Mesh: !<reference> fd926140-be72-4da1-afea-e519b4e19068
+  Mesh: !<reference> b8d72c9d-3229-45db-8fea-b4694402df10
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
   BlendNormals: false
   BlendShapes:
     {}
-- !<SceneObject/cd40d1ff-cc9e-49d9-99ff-cc96075773c6>
+- !<SceneObject/e5cfa2dd-35da-4e2f-b883-ed1a18dd6387>
   PrefabRemaps:
     []
-  Name: Avatar
+  Name: Box 1
   Enabled: true
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
     scale: {x: 10.000000, y: 10.000000, z: 10.000000}
     hasSegmentScaleCompensation: false
   Children:
-    []
+    - !<own> 1e4ca180-54f7-4991-b2d3-f26b89fc3aac
   Components:
-    - !<own> 5d03d0bc-1328-455c-9f21-36300e83c3b6
-    - !<own> 380cb900-4acf-4fd1-bb5f-13d3d19377df
+    []

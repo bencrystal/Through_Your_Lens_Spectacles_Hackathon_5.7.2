@@ -5,7 +5,6 @@
     - !<own> 0005641c-028d-459a-0000-000000014b4d
     - !<own> 5d751678-e57c-416b-88bb-9a1c5c8a13c3
     - !<own> fe4fff83-e5e7-4310-80c2-38cc3061ebf3
-    - !<own> bfcdb670-69ee-44d1-9e25-0b50854295e9
     - !<own> 7afbfd9a-d07f-4688-bba7-cb6741c1bd71
     - !<own> 16027f89-b04e-47a5-ae80-36580fe0abdc
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
@@ -1415,7 +1414,7 @@
   ScriptInputs:
     "":
       prefabs: !<reference.ObjectPrefab[]>
-        - !<reference> a5210dc2-6e7d-4b15-85b5-b7e46842bef0
+        - !<reference> f0012e99-454b-4eae-a114-9adc009446e2
       spawnerOwnsObject: false
       spawnAsChildren: true
       spawnUnderParent: !<reference.SceneObject> df83eaf2-aab3-4779-b5fd-e58f9d31eb1c
@@ -4433,7 +4432,7 @@
   ScriptInputs:
     "":
       instantiator: !<MappingBased.Instantiator> 1407d323-5cbc-4784-8ff9-e4813f93542b
-      prefab: !<reference.ObjectPrefab> a5210dc2-6e7d-4b15-85b5-b7e46842bef0
+      prefab: !<reference.ObjectPrefab> f0012e99-454b-4eae-a114-9adc009446e2
       cameraObj: !<reference.SceneObject> ddb50658-622c-4bee-871b-0cc2ccdce3c3
   ScriptTypes:
     "":
@@ -11219,35 +11218,6 @@
   ScriptTypes:
     "":
       {}
-- !<ScriptComponent/b67af9e8-b962-4eda-95a5-1137a4a69efe>
-  PrefabRemaps:
-    []
-  Name: SyncTransform
-  Enabled: true
-  ScriptAsset: !<reference> f3c20594-375f-43d8-a93f-a8e75bd6a61d
-  ScriptInputsDefault:
-    networkIdTypeString: true
-    customNetworkId: true
-    persistenceString: true
-    sendsPerSecondLimit: true
-    useSmoothing: true
-    interpolationTarget: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      networkIdTypeString: objectId
-      customNetworkId: enter_unique_id
-      positionSyncString: Location
-      rotationSyncString: Location
-      scaleSyncString: Location
-      persistenceString: Session
-      sendsPerSecondLimit: 10
-      useSmoothing: true
-      interpolationTarget: -0.250000
-  ScriptTypes:
-    "":
-      {}
 - !<SceneObject/b67fae69-6991-4858-bacc-590d12f630f0>
   PrefabRemaps:
     []
@@ -11694,26 +11664,6 @@
     - !<own> bc88938a-27f2-4976-be5a-8efc2da027c8
   Components:
     []
-- !<SceneObject/bfcdb670-69ee-44d1-9e25-0b50854295e9>
-  PrefabRemaps:
-    - 7a39445d-4346-4fe1-ac4d-15952544da8b: 6e92fa7d-2128-474c-83ec-21586da2db4a
-    - 8998d771-78d2-40cb-bbc2-7b26171823f1: 7b639b8c-519d-4907-90b3-a4ff27df04d7
-    - b67af9e8-b962-4eda-95a5-1137a4a69efe: 380cb900-4acf-4fd1-bb5f-13d3d19377df
-    - bfcdb670-69ee-44d1-9e25-0b50854295e9: cd40d1ff-cc9e-49d9-99ff-cc96075773c6
-    - edf6c8cb-fb1d-447b-9994-127852b35231: 5d03d0bc-1328-455c-9f21-36300e83c3b6
-  Name: Avatar
-  Enabled: false
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 10.000000, y: 10.000000, z: 10.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> edf6c8cb-fb1d-447b-9994-127852b35231
-    - !<own> b67af9e8-b962-4eda-95a5-1137a4a69efe
 - !<ScriptComponent/c0128ea2-53a1-45ed-8a42-23725c4c069b>
   PrefabRemaps:
     []
@@ -14547,26 +14497,6 @@
     - !<own> 980988ba-8adc-4eaf-b48c-436a55728e22
   Components:
     []
-- !<RenderMeshVisual/edf6c8cb-fb1d-447b-9994-127852b35231>
-  PrefabRemaps:
-    []
-  Name: Render Mesh Visual
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    - !<reference> d8b1d857-87b4-4544-a612-3ec345a6514c
-  Mesh: !<reference> 9c6c0f83-a3a4-4fcf-b8cf-4de5650fea7f
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
 - !<SceneObject/ee68837f-295d-4187-b015-59328cfa181a>
   PrefabRemaps:
     []
